@@ -93,9 +93,13 @@ if ! DISK_USAGE=$(df -P / | awk '
     NR==2 {
         gsub("%", "", $5)
 
-        if ($5 ~ /^[0-9]+$/ && $5 >= 0 && $5 <= 100) {
-            print $5
-            found=1
+        if ($5 ~ /^[0-9]+$/) {
+            usage = $5 + 0
+
+            if (usage >= 0 && usage <= 100) {
+                print usage
+                found=1
+            }
         }
     }
     END {
@@ -105,7 +109,6 @@ if ! DISK_USAGE=$(df -P / | awk '
     echo "ERROR: Khong the thu thap Disk" >&2
     exit 1
 fi
-
 # ================== LOGGING ==================
 time_log=$(date +'%Y-%m-%d %H:%M:%S')
 STATUS="OK"
