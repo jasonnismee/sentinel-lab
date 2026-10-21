@@ -1,0 +1,12 @@
+[2026-10-21 16:28:29] [SUCCESS] Rsync backup completed
+[2026-10-21 16:28:30] [ERROR] '/home/ubuntu/sentinel-backups/' da duoc tao!
+[2026-10-21 16:28:31] [SUCCESS] Rsync backup thanh cong
+[2026-10-21 16:29:26] [SUCCESS] Rsync backup completed
+[2026-10-21 16:29:27] [SUCCESS] '/home/ubuntu/sentinel-backups/' da duoc tao!
+[2026-10-21 16:29:28] [SUCCESS] Rsync backup thanh cong
+[2026-10-21 16:48:30] [INFO] Backup started
+[2026-10-21 16:48:31] [SUCCESS] SSH connection successful
+[2026-10-21 16:48:33] [SUCCESS] '/home/ubuntu/sentinel-backups/' da duoc tao!
+[2026-10-21 16:48:34] [SUCCESS] Rsync backup thanh cong
+[2026-10-21 16:49:53] [INFO] Backup started
+[2026-10-21 16:50:03] [ERROR] SSH connection failed
