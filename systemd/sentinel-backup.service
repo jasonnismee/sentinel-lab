@@ -1,0 +1,10 @@
+[Unit]
+Description=Sentinel Backup Logs to AWS EC2
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=jason
+WorkingDirectory=/home/jason/sentinel-lab
+ExecStart=/bin/bash /home/jason/sentinel-lab/scripts/backup_logs.sh

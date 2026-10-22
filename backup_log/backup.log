@@ -10,3 +10,59 @@
 [2026-10-21 16:48:34] [SUCCESS] Rsync backup thanh cong
 [2026-10-21 16:49:53] [INFO] Backup started
 [2026-10-21 16:50:03] [ERROR] SSH connection failed
+[2026-10-22 12:04:31] [INFO] Backup started
+[2026-10-22 12:04:32] [ERROR] SSH connection failed
+[2026-10-22 12:06:13] [INFO] Backup started
+[2026-10-22 12:06:15] [SUCCESS] SSH connection successful
+[2026-10-22 12:06:15] [SUCCESS] '/home/ubuntu/sentinel-backups/' da duoc tao!
+[2026-10-22 12:06:17] [SUCCESS] Rsync backup thanh cong
+[2026-10-22 12:06:22] [INFO] Backup started
+[2026-10-22 12:06:23] [SUCCESS] SSH connection successful
+[2026-10-22 12:06:24] [SUCCESS] '/home/ubuntu/sentinel-backups/' da duoc tao!
+[2026-10-22 12:06:25] [SUCCESS] Rsync backup thanh cong
+[2026-10-22 12:06:53] [INFO] Backup started
+[2026-10-22 12:06:54] [WARNING] Another backup is already running
+[2026-10-22 12:06:54] [SUCCESS] SSH connection successful
+[2026-10-22 12:06:55] [SUCCESS] '/home/ubuntu/sentinel-backups/' da duoc tao!
+[2026-10-22 12:06:57] [SUCCESS] Rsync backup thanh cong
+[2026-10-22 12:07:01] [INFO] Backup started
+[2026-10-22 12:07:02] [SUCCESS] SSH connection successful
+[2026-10-22 12:07:03] [WARNING] Another backup is already running
+[2026-10-22 12:07:03] [SUCCESS] '/home/ubuntu/sentinel-backups/' da duoc tao!
+[2026-10-22 12:07:05] [SUCCESS] Rsync backup thanh cong
+[2026-10-22 13:29:58] [INFO] Backup started
+[2026-10-22 13:30:08] [ERROR] SSH connection failed
+[2026-10-22 13:31:05] [INFO] Backup started
+[2026-10-22 13:31:05] [ERROR] SSH connection failed
+[2026-10-22 13:32:06] [INFO] Backup started
+[2026-10-22 13:32:07] [SUCCESS] SSH connection successful
+[2026-10-22 13:32:07] [SUCCESS] '/home/ubuntu/sentinel-backups/' da duoc tao!
+[2026-10-22 13:32:09] [SUCCESS] Rsync backup thanh cong
+[2026-10-22 14:00:08] [INFO] Backup started
+[2026-10-22 14:00:09] [SUCCESS] SSH connection successful
+[2026-10-22 14:00:10] [SUCCESS] '/home/ubuntu/sentinel-backups/' da duoc tao!
+[2026-10-22 14:00:12] [SUCCESS] Rsync backup thanh cong
+[2026-10-22 14:15:08] [INFO] Backup started
+[2026-10-22 14:15:09] [SUCCESS] SSH connection successful
+[2026-10-22 14:15:10] [SUCCESS] '/home/ubuntu/sentinel-backups/' da duoc tao!
+[2026-10-22 14:15:12] [SUCCESS] Rsync backup thanh cong
+[2026-10-22 14:30:08] [INFO] Backup started
+[2026-10-22 14:30:09] [SUCCESS] SSH connection successful
+[2026-10-22 14:30:10] [SUCCESS] '/home/ubuntu/sentinel-backups/' da duoc tao!
+[2026-10-22 14:30:11] [SUCCESS] Rsync backup thanh cong
+[2026-10-22 14:55:54] [INFO] Backup started
+[2026-10-22 14:56:04] [ERROR] SSH connection failed
+[2026-10-22 15:00:05] [INFO] Backup started
+[2026-10-22 15:00:15] [ERROR] SSH connection failed
+[2026-10-22 15:24:58] [INFO] Backup started
+[2026-10-22 15:25:08] [ERROR] SSH connection failed
+[2026-10-22 15:30:08] [INFO] Backup started
+[2026-10-22 15:30:18] [ERROR] SSH connection failed
+[2026-10-22 15:45:05] [INFO] Backup started
+[2026-10-22 15:45:15] [ERROR] SSH connection failed
+[2026-10-22 16:00:08] [INFO] Backup started
+[2026-10-22 16:00:18] [ERROR] SSH connection failed
+[2026-10-22 16:15:04] [INFO] Backup started
+[2026-10-22 16:15:14] [ERROR] SSH connection failed
+[2026-10-22 16:30:08] [INFO] Backup started
+[2026-10-22 16:30:18] [ERROR] SSH connection failed

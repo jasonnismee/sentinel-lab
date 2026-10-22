@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Sentinel Backup Every 15 Minutes
+
+[Timer]
+OnCalendar=*:0/15:00
+Persistent=false
+Unit=sentinel-backup.service
+
+[Install]
+WantedBy=timers.target

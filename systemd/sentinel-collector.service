@@ -1,0 +1,7 @@
+[Unit]
+Description=Sentinel CPU RAM Disk Collector
+
+[Service]
+Type=oneshot
+User=jason
+ExecStart=/bin/bash /home/jason/sentinel-lab/scripts/collect_metrics.sh

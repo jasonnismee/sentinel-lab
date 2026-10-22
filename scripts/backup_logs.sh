@@ -56,7 +56,7 @@ if ! [[ "$PORT" =~ ^[0-9]+$ ]]; then
     exit 1
 fi
 
-# Normalize leading zeros, e.g. 00022 -> 22
+# Normalize leading zeros
 PORT_NORMALIZED="${PORT#"${PORT%%[!0]*}"}"
 PORT_NORMALIZED="${PORT_NORMALIZED:-0}"
 
@@ -104,6 +104,17 @@ log_message() {
 
     printf '%s\n' "$log_line"
 }
+
+# ================== FILE LOCKING ==================
+LOCK_FILE="/tmp/sentinel-backup.lock"
+
+exec 200>"$LOCK_FILE"
+
+if ! flock -n 200; then
+    log_message "WARNING" "Another backup is already running"
+    exit 0
+fi
+
 log_message "INFO" "Backup started"
 # SSH CONNECTION
 if ! ssh \

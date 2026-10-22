@@ -1,0 +1,8 @@
+[Unit]
+Description=Sentinel CPU RAM Disk Collector
+
+[Service]
+Type=oneshot
+User=__APP_USER__
+WorkingDirectory=__PROJECT_DIR__
+ExecStart=/bin/bash __PROJECT_DIR__/scripts/collect_metrics.sh
