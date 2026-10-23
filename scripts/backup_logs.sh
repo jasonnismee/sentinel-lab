@@ -3,6 +3,7 @@ set -euo pipefail
 
 # ================== CONFIG ==================
 SCRIPT_DIR="$(dirname "$(realpath "$0")")"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 CONFIG_DIR="$(dirname "$SCRIPT_DIR")/config"
 ENV_FILE="$CONFIG_DIR/.env"
 
